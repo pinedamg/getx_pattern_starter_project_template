@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Flutter GetX Pattern Starter Project Template
 
-You can use the [editor on GitHub](https://github.com/pinedamg/getx_pattern_starter_project_template/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The name says all, the idea is speeding up the development process, to be focused only on the most important features of your new project, and keep moving forward on your new adventure.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Why I created this repo?
 
-### Markdown
+At the moment of start it, I was not able to found a repo with these characteristics or behaviors.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+So I've decided to create it with the most common use cases of an application.
 
-```markdown
-Syntax highlighted code block
+## Which are the dependencies?
+- GetX
+- GetX Pattern
+- Firebase
+- Firestore
 
-# Header 1
-## Header 2
-### Header 3
+## Requirements
+- Flutter 2.x >  Null Safety
+- Dart
 
-- Bulleted
-- List
+## Thanks to
+- GetX
+- Get CLI
+- GetX Pattern
 
-1. Numbered
-2. List
+## Contributing
+In process of template creation
 
-**Bold** and _Italic_ and `Code` text
+## Do you like it?
+If you liked it and this was helpful, please help me to continue to help you, it would be great for everyone
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pinedamg/getx_pattern_starter_project_template/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pinedamg)
