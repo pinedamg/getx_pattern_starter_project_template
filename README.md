@@ -9,7 +9,10 @@ At the moment of start it, I was not able to found a repo with these characteris
 So I've decided to create it with the most common use cases of an application.
 
 ## Which are the dependencies?
+- Flutter Native Splash
+  - flutter_native_splash
 - GetX
+  - getx
 - GetX Pattern
 - Firebase
 - Firestore
