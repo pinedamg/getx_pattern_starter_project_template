@@ -20,7 +20,8 @@ So I've decided to create it with the most common use cases of an application.
 
 ## Thanks to
 - GetX
-- Getx Pattern
+- Get CLI
+- GetX Pattern
 
 ## Contributing
 In process of template creation
