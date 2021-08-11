@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.getx_pattern_starter_project_template">
+    package="com.mpineda.getx_pattern_starter_project_template">
    <application
         android:label="getx_pattern_starter_project_template"
         android:icon="@mipmap/launcher_icon">

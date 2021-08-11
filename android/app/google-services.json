@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "467709435398",
+    "project_id": "mpineda-getx-template",
+    "storage_bucket": "mpineda-getx-template.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467709435398:android:d4855161777866c10eed87",
+        "android_client_info": {
+          "package_name": "com.mpineda.getx_pattern_starter_project_template"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467709435398-g9pbahgt60cogn3m66gocqr0mdvoqejq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mpineda.getx_pattern_starter_project_template",
+            "certificate_hash": "a0c579ffce01106574addb591d732350ca6861d0"
+          }
+        },
+        {
+          "client_id": "467709435398-rgt6ghissn7sp1roqah8me5mqj7t5nu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlF6sV5rwpqYbxbc0d6fPYVYvd2jo8PwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467709435398-rgt6ghissn7sp1roqah8me5mqj7t5nu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

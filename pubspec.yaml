@@ -10,6 +10,7 @@ dependencies:
   get: 4.3.5
   flutter_native_splash: 1.2.1
   flutter_launcher_icons: 0.9.1
+  firebase_core: 1.4.0
   flutter: 
     sdk: flutter
 
@@ -24,8 +25,9 @@ flutter_native_splash:
   color: '#FFFFFF'
   image: assets/images/splash.png
 
-flutter_icons:
-  android: "launcher_icon"
+flutter_icons: 
+  android: launcher_icon
+  image_path: assets/icon/icon.png
   ios: true
   remove_alpha_ios: true
-  image_path: "assets/icon/icon.png"
+
