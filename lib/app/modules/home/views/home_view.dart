@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/home/controllers/home_controller.dart';
@@ -15,6 +17,12 @@ class HomeView extends GetView<HomeController> {
           'Welcome to GetX Pattern Starter Project',
           style: TextStyle(fontSize: 18),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          controller.registerWithEmailAndPassword('asdasd', 'asdasd');
+        },
+        child: Icon(Icons.add),
       ),
     );
   }
