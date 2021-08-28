@@ -1,11 +1,18 @@
+import 'package:flutter_launcher_icons/android.dart';
 import 'package:get/get.dart';
 
 class AuthController extends GetxController {
-  //TODO: Implement AuthController
+  final isAuth = false.obs;
 
-  final count = 0.obs;
+  void setAuth(bool value) {
+    isAuth.value = value;
+    Get.offAllNamed("/home");
+  }
+
   @override
   void onInit() {
+    isAuth.value ? Get.offAllNamed('/home') : Get.offAllNamed('/signup');
+
     super.onInit();
   }
 
@@ -16,5 +23,4 @@ class AuthController extends GetxController {
 
   @override
   void onClose() {}
-  void increment() => count.value++;
 }

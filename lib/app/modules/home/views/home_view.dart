@@ -13,16 +13,7 @@ class HomeView extends GetView<HomeController> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text(
-          'Welcome to GetX Pattern Starter Project',
-          style: TextStyle(fontSize: 18),
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          controller.registerWithEmailAndPassword('asdasd', 'asdasd');
-        },
-        child: Icon(Icons.add),
+        child: Text('Home Page View'),
       ),
     );
   }
