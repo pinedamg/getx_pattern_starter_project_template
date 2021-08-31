@@ -23,8 +23,11 @@ So I've decided to create it with the most common use cases of an application.
 - [ ] Recover Password
 - [ ] Sign in with Email
 
-## Feature behaviors
-- Second Splash Screen
+## Future behaviors
+* Second Splash Screen
+* Settings
+* Drawer
+* Bottom Bar
 
 ## Which are the dependencies?
 - Flutter Native Splash
