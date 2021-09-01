@@ -11,7 +11,7 @@ class AuthController extends GetxController {
 
   @override
   void onInit() {
-    isAuth.value ? Get.offAllNamed('/home') : Get.offAllNamed('/signup');
+    // isAuth.value ? Get.offAllNamed('/home') : Get.offAllNamed('/signup');
 
     super.onInit();
   }

@@ -9,17 +9,17 @@ class AuthView extends GetView<AuthController> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Auth'),
-            ElevatedButton(
-              onPressed: () => {controller.setAuth(true)},
-              child: Text('Login'),
+            Text('Username'),
+            TextFormField(),
+            Text('Email'),
+            TextFormField(
+              keyboardType: TextInputType.emailAddress,
             ),
-            GetX<AuthController>(
-              init:
-                  AuthController(), // you need to init controller only the first time
-              builder: (c) =>
-                  c.isAuth.value ? Text('Logged') : Text('Not Logged'),
+            Text('Password'),
+            TextFormField(
+              obscureText: true,
             ),
           ],
         ),
