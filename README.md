@@ -8,6 +8,27 @@ At the moment of start it, I was not able to found a repo with these characteris
 
 So I've decided to create it with the most common use cases of an application.
 
+## Current flow
+![Current-Flow](https://user-images.githubusercontent.com/818713/131514343-8171b176-e732-46c5-aacf-77d3c31a51b7.png)
+
+## Current workdone
+- [x] GetX Module Directory Structure
+- [x] Launcher Icon
+- [x] Native Splash Screen
+- [ ] Intro Screen
+- [ ] Root
+- [ ] Home
+- [ ] Sign In
+- [ ] Sign Up
+- [ ] Recover Password
+- [ ] Sign in with Email
+
+## Future behaviors
+* Second Splash Screen
+* Settings
+* Drawer
+* Bottom Bar
+
 ## Which are the dependencies?
 - Flutter Native Splash
   - flutter_native_splash
