@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
 
-import 'package:getx_pattern_starter_project_template/app/modules/auth/bindings/auth_binding.dart';
+import 'package:getx_pattern_starter_project_template/app/modules/auth/auth_binding.dart';
+import 'package:getx_pattern_starter_project_template/app/modules/auth/auth_view.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/auth/signin/bindings/signin_binding.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/auth/signin/views/signin_view.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/auth/signup/bindings/signup_binding.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/auth/signup/views/signup_view.dart';
-import 'package:getx_pattern_starter_project_template/app/modules/auth/views/auth_view.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/home/bindings/home_binding.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/home/views/home_view.dart';
 
