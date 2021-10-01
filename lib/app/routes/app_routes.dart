@@ -4,19 +4,19 @@ part of 'app_pages.dart';
 abstract class Routes {
   Routes._();
 
+  static const ROOT = _Paths.ROOT;
+  static const INTRO = _Paths.INTRO;
   static const HOME = _Paths.HOME;
   static const AUTH = _Paths.AUTH;
   static const SIGNIN = _Paths.AUTH + _Paths.SIGNIN;
   static const SIGNUP = _Paths.AUTH + _Paths.SIGNUP;
-  static const INTRO = _Paths.INTRO;
-  static const ROOT = _Paths.ROOT;
 }
 
 abstract class _Paths {
+  static const ROOT = '/root';
+  static const INTRO = '/intro';
   static const HOME = '/home';
   static const AUTH = '/auth';
   static const SIGNIN = '/signin';
   static const SIGNUP = '/signup';
-  static const INTRO = '/intro';
-  static const ROOT = '/root';
 }
