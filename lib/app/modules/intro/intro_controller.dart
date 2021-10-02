@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:introduction_screen/introduction_screen.dart';
 
 class IntroController extends GetxController {
-  //TODO: Implement IntroController
+  final keyIntroScreen = GlobalKey<IntroductionScreenState>();
 
-  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
@@ -16,5 +17,4 @@ class IntroController extends GetxController {
 
   @override
   void onClose() {}
-  void increment() => count.value++;
 }

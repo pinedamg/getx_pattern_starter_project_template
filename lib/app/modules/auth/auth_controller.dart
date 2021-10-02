@@ -1,18 +1,29 @@
-import 'package:flutter_launcher_icons/android.dart';
 import 'package:get/get.dart';
 
 class AuthController extends GetxController {
-  final isAuth = false.obs;
+  final _isLoggedIn = false.obs;
 
-  void setAuth(bool value) {
-    isAuth.value = value;
-    Get.offAllNamed("/home");
+  bool get isLoggedIn => _isLoggedIn.value;
+  set isLoggedIn(bool value) => _isLoggedIn.value = value;
+
+  // Logout user
+  // TODO: Implement login
+  Future<void> login() async {
+    isLoggedIn = false;
+    await Future.delayed(Duration(seconds: 2));
+    isLoggedIn = true;
+  }
+
+  // Logout user
+  // TODO: Implement logout
+  Future<void> logout() async {
+    isLoggedIn = true;
+    await Future.delayed(Duration(seconds: 2));
+    isLoggedIn = false;
   }
 
   @override
   void onInit() {
-    // isAuth.value ? Get.offAllNamed('/home') : Get.offAllNamed('/signup');
-
     super.onInit();
   }
 

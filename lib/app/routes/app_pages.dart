@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:getx_pattern_starter_project_template/app/auth_middleware.dart';
 
 import 'package:getx_pattern_starter_project_template/app/modules/root/root_binding.dart';
 import 'package:getx_pattern_starter_project_template/app/modules/root/root_view.dart';
@@ -25,31 +26,34 @@ class AppPages {
       name: _Paths.ROOT,
       page: () => RootView(),
       binding: RootBinding(),
-    ),
-    GetPage(
-      name: _Paths.INTRO,
-      page: () => IntroView(),
-      binding: IntroBinding(),
-    ),
-    GetPage(
-      name: _Paths.HOME,
-      page: () => HomeView(),
-      binding: HomeBinding(),
-    ),
-    GetPage(
-      name: _Paths.AUTH,
-      page: () => AuthView(),
-      binding: AuthBinding(),
+      middlewares: [AuthMiddleware()],
       children: [
         GetPage(
-          name: _Paths.SIGNIN,
-          page: () => SigninView(),
-          binding: SigninBinding(),
+          name: _Paths.INTRO,
+          page: () => IntroView(),
+          binding: IntroBinding(),
         ),
         GetPage(
-          name: _Paths.SIGNUP,
-          page: () => SignupView(),
-          binding: SignupBinding(),
+          name: _Paths.HOME,
+          page: () => HomeView(),
+          binding: HomeBinding(),
+        ),
+        GetPage(
+          name: _Paths.AUTH,
+          page: () => AuthView(),
+          binding: AuthBinding(),
+          children: [
+            GetPage(
+              name: _Paths.SIGNIN,
+              page: () => SigninView(),
+              binding: SigninBinding(),
+            ),
+            GetPage(
+              name: _Paths.SIGNUP,
+              page: () => SignupView(),
+              binding: SignupBinding(),
+            ),
+          ],
         ),
       ],
     ),
