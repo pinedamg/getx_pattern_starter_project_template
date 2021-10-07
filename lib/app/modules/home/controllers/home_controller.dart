@@ -5,6 +5,19 @@ import 'package:get/get.dart';
 class HomeController extends GetxController {
   FirebaseAuth fa = FirebaseAuth.instance;
 
+  @override
+  void onInit() {
+    super.onInit();
+  }
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {}
+
   Future<bool> registerWithEmailAndPassword(
     String email,
     String password,

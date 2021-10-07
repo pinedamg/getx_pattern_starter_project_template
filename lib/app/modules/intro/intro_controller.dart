@@ -17,4 +17,6 @@ class IntroController extends GetxController {
 
   @override
   void onClose() {}
+
+  void goToHome() => Get.offAllNamed('/home');
 }

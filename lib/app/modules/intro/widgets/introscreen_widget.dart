@@ -4,36 +4,37 @@ import 'package:getx_pattern_starter_project_template/app/modules/root/root_cont
 import 'package:introduction_screen/introduction_screen.dart';
 
 class IntroscreenWidget extends StatelessWidget {
-  final keyIntroScreen;
-  IntroscreenWidget({this.keyIntroScreen});
+  final controller;
+  IntroscreenWidget({this.controller});
 
   @override
   Widget build(BuildContext context) {
     return IntroductionScreen(
-      key: keyIntroScreen,
+      key: controller.keyIntroScreen,
       pages: [
         PageViewModel(
-          title: "Title of first page",
-          body: "This is the body",
-          image: const Center(child: Icon(Icons.android)),
+          title: "Welcome to the Starter Project",
+          body: "This is a simple intro",
+          image: const Center(child: Icon(Icons.home, size: 100.0)),
         ),
         PageViewModel(
-          title: "Title of second page",
-          body: "This is the body",
-          image: const Center(child: Icon(Icons.android)),
+          title: "User Authentication",
+          body: "Covers the most common cases",
+          image: const Center(child: Icon(Icons.account_circle, size: 100.0)),
         ),
         PageViewModel(
-          title: "Title of third page",
-          body: "This is the body",
-          image: const Center(child: Icon(Icons.android)),
+          title: "App settings",
+          body: "Usefull application settings",
+          image: const Center(child: Icon(Icons.settings, size: 100.0)),
+        ),
+        PageViewModel(
+          title: "Let's get started",
+          body: "Here go",
+          image: const Center(child: Icon(Icons.celebration, size: 100.0)),
         ),
       ],
-      onDone: () {
-        Get.find<RootController>();
-      },
-      onSkip: () {
-        Get.offAllNamed('/home');
-      },
+      onDone: () => controller.goToHome(),
+      onSkip: () => controller.goToHome(),
       showNextButton: true,
       showDoneButton: true,
       showSkipButton: true,

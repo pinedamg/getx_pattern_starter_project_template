@@ -8,7 +8,7 @@ class IntroView extends GetView<IntroController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: IntroscreenWidget(keyIntroScreen: controller.keyIntroScreen),
+      body: IntroscreenWidget(controller: controller),
     );
   }
 }
