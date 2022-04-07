@@ -9,19 +9,20 @@ At the moment of start it, I was not able to found a repo with these characteris
 So I've decided to create it with the most common use cases of an application.
 
 ## Current flow
-![Current-Flow](https://user-images.githubusercontent.com/818713/131514343-8171b176-e732-46c5-aacf-77d3c31a51b7.png)
+![GetX Starter Template - Frame 1](https://user-images.githubusercontent.com/818713/162109574-afc8e395-c9a6-4e3e-ae47-194c32fd4bf8.jpg)
 
 ## Current workdone
 - [x] GetX Module Directory Structure
 - [x] Launcher Icon
 - [x] Native Splash Screen
-- [ ] Intro Screen
-- [ ] Root
-- [ ] Home
+- [x] Intro Screen
+- [ ] InitMiddleware
+- [x] Home
 - [ ] Sign In
 - [ ] Sign Up
 - [ ] Recover Password
 - [ ] Sign in with Email
+- [ ] Sign in with Phone Number
 
 ## Future behaviors
 * Second Splash Screen
@@ -31,9 +32,7 @@ So I've decided to create it with the most common use cases of an application.
 
 ## Which are the dependencies?
 - Flutter Native Splash
-  - flutter_native_splash
 - GetX
-  - getx
 - GetX Pattern
 - Firebase
 - Firestore
