@@ -1,17 +1,25 @@
-# Flutter GetX Pattern Starter Project Template
 
-The name says all, the idea is speeding up the development process, to be focused only on the most important features of your new project, and keep moving forward on your new adventure.
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-## Why I created this repo?
 
-At the moment of start it, I was not able to found a repo with these characteristics or behaviors.
+# GetX Pattern Starter Project Template
 
-So I've decided to create it with the most common use cases of an application.
+The name says everything, the idea is speed up the development process, to be focused only on the most important features of your project, and forget the most obvious or boring things as the intro, login, register, etc.
 
-## Current flow
+
+## Applicattion Flow
+
 ![GetX Starter Template - Frame 1](https://user-images.githubusercontent.com/818713/162109574-afc8e395-c9a6-4e3e-ae47-194c32fd4bf8.jpg)
 
-## Current workdone
+
+## Tech Stack
+
+- Flutter 2.x > Null Safety
+- Dart
+
+
+## Features
+
 - [x] GetX Module Directory Structure
 - [x] Launcher Icon
 - [x] Native Splash Screen
@@ -24,32 +32,36 @@ So I've decided to create it with the most common use cases of an application.
 - [ ] Sign in with Email
 - [ ] Sign in with Phone Number
 
-## Future behaviors
+## Roadmap
+
 * Second Splash Screen
 * Settings
 * Drawer
 * Bottom Bar
 
-## Which are the dependencies?
-- Flutter Native Splash
-- GetX
-- GetX Pattern
-- Firebase
-- Firestore
-
-## Requirements
-- Flutter 2.x >  Null Safety
-- Dart
-
-## Thanks to
-- GetX
-- Get CLI
-- GetX Pattern
 
 ## Contributing
-In process of template creation
 
-## Do you like it?
-If you liked it and this was helpful, please help me to continue to help you, it would be great for everyone
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Demo
+
+Coming soon
+
+## Acknowledgements
+
+ - [GetX](https://github.com/jonataslaw/getx)
+ - [GetX Pattern](https://github.com/kauemurakami/getx_pattern)
+ - [FlutterFire](https://github.com/firebase/flutterfire)
+
+
+## Did you like it?
+
+If you liked it and think is helpful, please help me to continue to help you, help yourself to keep moving forward the wheel.
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/pinedamg)
