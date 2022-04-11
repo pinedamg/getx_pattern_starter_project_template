@@ -1,6 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
+![LOGO GETX TEMPLATE](https://user-images.githubusercontent.com/818713/162783361-12d46ed1-26a5-4b6e-aa19-4b106121d504.png)
 
 # GetX Pattern Starter Project Template
 
